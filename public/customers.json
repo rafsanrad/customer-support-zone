@@ -1,0 +1,110 @@
+[
+  {
+    "id": "T001",
+    "title": "Login Issue",
+    "description": "User unable to login with correct credentials.",
+    "customer": "Alice Smith",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-11-14T09:30:00Z"
+  },
+  {
+    "id": "T002",
+    "title": "Payment Failure",
+    "description": "Transaction failed during checkout.",
+    "customer": "Bob Johnson",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2025-11-14T10:15:00Z"
+  },
+  {
+    "id": "T003",
+    "title": "App Crash",
+    "description": "Mobile app crashes on launch.",
+    "customer": "Charlie Davis",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-11-14T11:00:00Z"
+  },
+  {
+    "id": "T004",
+    "title": "Feature Request",
+    "description": "Customer requests dark mode feature.",
+    "customer": "Dana Lee",
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2025-11-13T14:45:00Z"
+  },
+  {
+    "id": "T005",
+    "title": "Incorrect Billing",
+    "description": "Customer charged twice for one order.",
+    "customer": "Evan Kim",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-11-13T15:30:00Z"
+  },
+  {
+    "id": "T006",
+    "title": "UI Bug",
+    "description": "Dropdown menu not displaying correctly.",
+    "customer": "Fiona Zhang",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2025-11-12T09:00:00Z"
+  },
+  {
+    "id": "T007",
+    "title": "Account Locked",
+    "description": "Customer account locked after password reset.",
+    "customer": "George Patel",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-11-12T10:20:00Z"
+  },
+  {
+    "id": "T008",
+    "title": "Email Not Received",
+    "description": "Confirmation email not sent after signup.",
+    "customer": "Hannah Nguyen",
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2025-11-11T13:10:00Z"
+  },
+  {
+    "id": "T009",
+    "title": "Slow Performance",
+    "description": "Website loading slowly on mobile devices.",
+    "customer": "Ian Wright",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2025-11-11T14:00:00Z"
+  },
+  {
+    "id": "T010",
+    "title": "Data Sync Issue",
+    "description": "Data not syncing between devices.",
+    "customer": "Julia Roberts",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-11-10T08:45:00Z"
+  },
+  {
+    "id": "T011",
+    "title": "Feedback Submission Error",
+    "description": "Error when submitting feedback form.",
+    "customer": "Kevin Brown",
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2025-11-10T09:30:00Z"
+  },
+  {
+    "id": "T012",
+    "title": "Missing Order",
+    "description": "Customer did not receive their order.",
+    "customer": "Laura Green",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-11-09T16:00:00Z"
+  }
+]
