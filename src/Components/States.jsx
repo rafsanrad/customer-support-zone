@@ -1,6 +1,6 @@
 import React from "react";
 
-const States = () => {
+const States = ({taskTotal,resolvedTotal}) => {
   return (
     <div>
       <div className="w-11/12 mx-auto py-10 grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -14,7 +14,7 @@ const States = () => {
           <div className="flex  flex-col md:flex-row items-center justify-center h-[200px]">
             <div className="text-xl  text-center">
               <h2 className="text-3xl font-semibold">In Progress</h2>
-              <h2 className="text-4xl font-bold">0</h2>
+              <h2 className="text-4xl font-bold">{taskTotal}</h2>
             </div>
           </div>
         </div>
@@ -25,7 +25,7 @@ const States = () => {
           <div className="flex flex-col md:flex-row items-center h-[200px]  justify-center">
             <div className="text-xl text-center">
               <h2 className="text-3xl font-semibold">Resolved</h2>
-              <h2 className="text-4xl font-bold">0</h2>
+              <h2 className="text-4xl font-bold">{resolvedTotal}</h2>
             </div>
           </div>
         </div>

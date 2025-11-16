@@ -1,9 +1,9 @@
 import React from 'react';
 
-const CustomerCard = ({customer}) => {
+const CustomerCard = ({customer,handleCustomer}) => {
     return (
        <div 
-    // onClick={()=>handleOrder(order)} 
+      onClick={()=>handleCustomer(customer)} 
       className="p-5 rounded-xl shadow-xl relative space-y-3">
       <div className='flex justify-between items-center'>
         <h2 className="text-lg flex items-center gap-3">
@@ -15,7 +15,7 @@ const CustomerCard = ({customer}) => {
         {customer.description}
       </p>
 
-      <div className='flex justify-between '>
+      <div className='flex md:flex-row flex-col justify-between '>
         <div className='flex gap-2'>
             <p>{customer.id}</p>
             <p>{customer.priority}</p>

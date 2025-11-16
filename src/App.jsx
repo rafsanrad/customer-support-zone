@@ -16,6 +16,7 @@ function App() {
         <CustomerContainer promise={customersPromise}></CustomerContainer>
       </Suspense>
       <Footer></Footer>
+       
     </div>
   )
 }
